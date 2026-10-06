@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Tabelle
+  - type: list
+    name: Sicht
+    order: []
