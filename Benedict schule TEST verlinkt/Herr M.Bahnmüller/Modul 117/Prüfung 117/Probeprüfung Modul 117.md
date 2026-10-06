@@ -395,7 +395,7 @@ Ein Büro-PC kann keine Webseite öffnen. Nenne zu jedem Schritt eine passende K
 > | Testprotokoll und Abnahme | Test/Abnahme |
 > | Betriebsanleitung und Übergabe | Abschluss/Betrieb |
 
-> [!success]- Teil F – Praktisches Netzkonzept
+> [!success]+ Teil F – Praktisches Netzkonzept (Aufgaben 15–18)
 > **Aufgabe 15 – Beispielplan**
 >
 > ```text
