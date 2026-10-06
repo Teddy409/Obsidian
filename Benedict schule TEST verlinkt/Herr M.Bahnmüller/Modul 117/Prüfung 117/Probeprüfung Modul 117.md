@@ -1,71 +1,88 @@
-# Probeprüfung Modul 117 – Netzwerke
+# Probeprüfung Modul 117 – Block 1 bis 4
 
+**Thema:** Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren  
 **Bearbeitungszeit:** 120 Minuten  
-**Punkte:** 120  
-**Hilfsmittel:** Schreibzeug und Taschenrechner
+**Maximalpunktzahl:** 120 Punkte  
+**Hilfsmittel:** eigene Zusammenfassung, Unterrichtsunterlagen und Taschenrechner
 
 > [!important]
-> Öffne die eingeklappten Lösungen erst, nachdem du alle Aufgaben bearbeitet hast.
+> Bearbeite die Prüfung zuerst vollständig auf Papier. Öffne die Musterlösungen erst nach Ablauf der 120 Minuten.
 
-## Zeitplan
+## Zeit- und Punkteplan
 
-| Teil | Thema | Zeit | Punkte |
+| Teil | Thema | Richtzeit | Punkte |
 |---|---|---:|---:|
-| A | Netzwerk-Grundlagen | 10 Min. | 15 |
-| B | Topologien | 20 Min. | 20 |
-| C | OSI und TCP/IP | 25 Min. | 25 |
-| D | Protokolle und Ports | 15 Min. | 15 |
-| E | IPv4 und Subnetzmaske | 35 Min. | 31 |
-| F | Praxis und Fehlersuche | 15 Min. | 14 |
+| A | Netzwerkarchitektur und Topologien | 10 Min. | 12 |
+| B | Medien und Komponenten | 15 Min. | 16 |
+| C | OSI, TCP/IP und Protokolle | 20 Min. | 20 |
+| D | Adressierung und Subnetting | 25 Min. | 24 |
+| E | Projektvorgehen | 15 Min. | 14 |
+| F | Praktisches Netzkonzept | 25 Min. | 24 |
+| G | Inbetriebnahme und Fehlersuche | 10 Min. | 10 |
 | **Total** |  | **120 Min.** | **120** |
 
 ---
 
-## Teil A – Netzwerk-Grundlagen (15 Punkte)
+# Prüfung
 
-### Aufgabe 1 – Netzwerkarten (8 Punkte)
+## Teil A – Netzwerkarchitektur und Topologien (12 Punkte)
 
-Erkläre **LAN**, **WLAN**, **MAN** und **WAN**. Nenne zu jedem Begriff ein Beispiel.
+### Aufgabe 1 – Netzwerkarten (5 Punkte)
 
-### Aufgabe 2 – Grundbegriffe (7 Punkte)
+Erkläre die folgenden Begriffe jeweils in einem Satz und nenne für vier davon ein passendes Beispiel:
 
-1. Was ist ein **SPOF**? Nenne ein Beispiel. (3 P.)
-2. Was bedeutet **Redundanz** und welchen Vorteil hat sie? (2 P.)
-3. Erkläre den Unterschied zwischen einer privaten und einer öffentlichen IP-Adresse. (2 P.)
+1. LAN
+2. WLAN
+3. MAN
+4. WAN
+5. GAN
 
----
+### Aufgabe 2 – Topologie, SPOF und Redundanz (7 Punkte)
 
-## Teil B – Topologien (20 Punkte)
+Eine kleine Firma hat zwölf Arbeitsplätze, zwei Drucker, ein NAS und einen Internetrouter.
 
-### Aufgabe 3 – Alle Topologien im Vergleich (14 Punkte)
-
-Ergänze zu jeder Topologie den Aufbau, einen Vorteil und einen Nachteil. (je 2 P.)
-
-| Topologie | Aufbau | Vorteil | Nachteil |
-|---|---|---|---|
-| Stern |  |  |  |
-| Bus |  |  |  |
-| Ring |  |  |  |
-| Linie |  |  |  |
-| Baum |  |  |  |
-| Teilvermascht |  |  |  |
-| Vollvermascht |  |  |  |
-
-### Aufgabe 4 – Firmennetzwerk (6 Punkte)
-
-Eine Firma besitzt acht Computer, zwei Drucker und einen Server.
-
-1. Welche Topologie würdest du verwenden? Begründe. (3 P.)
-2. Welches Gerät ist normalerweise der zentrale Punkt? (1 P.)
-3. Wie könnte man den wichtigsten SPOF reduzieren? (2 P.)
+1. Welche Topologie würdest du einsetzen? Begründe mit zwei Vorteilen. (3 P.)
+2. Nenne den wichtigsten SPOF dieser Topologie. (1 P.)
+3. Schlage zwei konkrete Massnahmen vor, die die Ausfallsicherheit erhöhen. (2 P.)
+4. Was ist ein Backbone? (1 P.)
 
 ---
 
-## Teil C – OSI und TCP/IP (25 Punkte)
+## Teil B – Medien und Komponenten (16 Punkte)
 
-### Aufgabe 5 – OSI-Schichten (7 Punkte)
+### Aufgabe 3 – Übertragungsmedien auswählen (8 Punkte)
 
-Schreibe die sieben OSI-Schichten in der richtigen Reihenfolge auf. Beginne bei Schicht 1.
+Wähle jeweils **Twisted Pair**, **Glasfaser** oder **WLAN** und begründe deine Wahl.
+
+1. Ein Büro-PC steht fünf Meter vom Switch entfernt. (2 P.)
+2. Zwei Gebäude liegen 400 Meter auseinander; zwischen ihnen treten starke elektromagnetische Störungen auf. (2 P.)
+3. Mitarbeitende sollen sich mit Tablets frei im Sitzungszimmer bewegen. (2 P.)
+4. Erkläre den Unterschied zwischen ungeschirmtem und geschirmtem Twisted-Pair-Kabel. (2 P.)
+
+### Aufgabe 4 – Komponenten zuordnen (8 Punkte)
+
+Ergänze Hauptaufgabe und typische OSI-Schicht.
+
+| Komponente | Hauptaufgabe | OSI-Schicht |
+|---|---|---:|
+| Hub |  |  |
+| Switch |  |  |
+| Router |  |  |
+| Access Point |  |  |
+| Medienkonverter |  |  |
+| Stateful Firewall |  |  |
+| Proxy |  |  |
+| SFP-Modul |  |  |
+
+Pro Zeile gibt es 0,5 Punkte für die Aufgabe und 0,5 Punkte für die Schicht.
+
+---
+
+## Teil C – OSI, TCP/IP und Protokolle (20 Punkte)
+
+### Aufgabe 5 – OSI-Modell (7 Punkte)
+
+Schreibe die sieben OSI-Schichten von Schicht 1 bis 7 auf. Deutsch oder Englisch genügt.
 
 | Schicht | Name |
 |---:|---|
@@ -77,191 +94,221 @@ Schreibe die sieben OSI-Schichten in der richtigen Reihenfolge auf. Beginne bei 
 | 6 |  |
 | 7 |  |
 
-### Aufgabe 6 – Begriffe zuordnen (8 Punkte)
+### Aufgabe 6 – Begriffe und Protokolle (8 Punkte)
 
-Ordne jeden Begriff der richtigen OSI-Schicht zu:
+Ergänze Aufgabe und OSI-Schicht.
 
-**Switch, Router, Hub, IP, MAC-Adresse, TCP, UDP, HTTP**
+| Begriff | Aufgabe | OSI-Schicht |
+|---|---|---:|
+| MAC-Adresse |  |  |
+| ARP |  |  |
+| IP |  |  |
+| ICMP |  |  |
+| TCP |  |  |
+| UDP |  |  |
+| DNS |  |  |
+| HTTPS |  |  |
 
-| Begriff | OSI-Schicht |
-|---|---:|
-| Switch |  |
-| Router |  |
-| Hub |  |
-| IP |  |
-| MAC-Adresse |  |
-| TCP |  |
-| UDP |  |
-| HTTP |  |
+Pro Zeile gibt es 0,5 Punkte für die Aufgabe und 0,5 Punkte für die Schicht.
 
 ### Aufgabe 7 – TCP und UDP (5 Punkte)
 
-Erkläre mindestens drei Unterschiede zwischen TCP und UDP. Nenne für beide je ein Anwendungsbeispiel.
-
-### Aufgabe 8 – OSI-Komponenten zuordnen (5 Punkte)
-
-Ordne jede Komponente der Schicht zu, auf der sie laut Lernunterlage arbeitet (je 1 P.):
-
-**Hub, Switch, Router, Stateful-Inspection-Firewall, Proxy**
-
-| Komponente | OSI-Schicht |
-|---|---:|
-| Hub |  |
-| Switch |  |
-| Router |  |
-| Stateful-Inspection-Firewall |  |
-| Proxy |  |
+1. Nenne drei Unterschiede zwischen TCP und UDP. (3 P.)
+2. Nenne je ein sinnvolles Anwendungsbeispiel. (2 P.)
 
 ---
 
-## Teil D – Protokolle und Ports (15 Punkte)
+## Teil D – Adressierung und Subnetting (24 Punkte)
 
-### Aufgabe 9 – Protokolltabelle (10 Punkte)
+### Aufgabe 8 – IPv4-Grundlagen (5 Punkte)
 
-Ergänze Aufgabe und Standard-Port.
+1. Aus wie vielen Bits und Oktetten besteht IPv4? (2 P.)
+2. Welchen Wertebereich hat ein Oktett? (1 P.)
+3. Was trennt die Subnetzmaske? (1 P.)
+4. Wozu dient das Default Gateway? (1 P.)
 
-| Protokoll | Aufgabe | Port |
-|---|---|---:|
-| HTTP |  |  |
-| HTTPS |  |  |
-| FTP-Steuerung |  |  |
-| SMTP |  |  |
-| POP3 |  |  |
-| IMAP |  |  |
-| DNS |  |  |
+### Aufgabe 9 – Private Adressen (4 Punkte)
 
-Für jede richtige Aufgabe gibt es 1 Punkt. Für HTTP, HTTPS und DNS gibt es zusätzlich je 1 Punkt für den richtigen Port.
+Markiere jede Adresse als **privat** oder **öffentlich**.
 
-### Aufgabe 10 – ARP, DNS und ICMP (5 Punkte)
-
-1. Welche Aufgabe hat ARP? (2 P.)
-2. Welche Aufgabe hat DNS? (2 P.)
-3. Wofür wird ICMP beispielsweise verwendet? (1 P.)
-
----
-
-## Teil E – IPv4 und Subnetzmaske (31 Punkte)
-
-### Aufgabe 11 – IPv4-Grundlagen (5 Punkte)
-
-1. Aus wie vielen Bits besteht eine IPv4-Adresse? (1 P.)
-2. Wie viele Oktette besitzt sie? (1 P.)
-3. Welchen Wertebereich kann ein Oktett haben? (1 P.)
-4. Welche zwei Bestandteile bestimmt die Subnetzmaske? (2 P.)
-
-### Aufgabe 12 – Privat oder öffentlich? (5 Punkte)
-
-| IP-Adresse | Privat oder öffentlich? |
+| Adresse | privat / öffentlich |
 |---|---|
-| `10.20.30.40` |  |
-| `172.16.5.10` |  |
-| `172.32.5.10` |  |
-| `192.168.50.7` |  |
-| `8.8.8.8` |  |
+| `10.25.8.4` |  |
+| `172.20.100.5` |  |
+| `172.32.1.5` |  |
+| `192.168.80.20` |  |
 
-### Aufgabe 13 – Dezimal und Binär (6 Punkte)
+### Aufgabe 10 – Binär und Maske (4 Punkte)
 
-1. Wandle `192` in eine 8-Bit-Binärzahl um. (2 P.)
-2. Wandle `168` in eine 8-Bit-Binärzahl um. (2 P.)
-3. Wandle `11111111` ins Dezimalsystem um. (1 P.)
-4. Wandle `00000000` ins Dezimalsystem um. (1 P.)
+1. Wandle `192` in eine 8-Bit-Binärzahl um. (1 P.)
+2. Wandle `224` in eine 8-Bit-Binärzahl um. (1 P.)
+3. Welche Dezimalmaske gehört zu `/27`? (1 P.)
+4. Wie viele Hostbits bleiben bei `/27`? (1 P.)
 
-### Aufgabe 14 – Subnetz `/24` (9 Punkte)
+### Aufgabe 11 – Subnetz vollständig berechnen (9 Punkte)
 
-Gegeben:
+Gegeben ist die Hostadresse `192.168.40.78/27`.
 
-- IP-Adresse: `192.168.10.37`
-- Subnetzmaske: `255.255.255.0`
-- Präfix: `/24`
+1. Subnetzmaske in Dezimalschreibweise (1 P.)
+2. Blockgrösse im letzten Oktett (1 P.)
+3. Netzwerkadresse (2 P.)
+4. Broadcast-Adresse (2 P.)
+5. erster und letzter nutzbarer Host (2 P.)
+6. Anzahl nutzbarer Hosts (1 P.)
 
-1. Wie lautet die Netzwerkadresse? (2 P.)
-2. Wie lautet die Broadcast-Adresse? (2 P.)
-3. Welcher Hostbereich kann an Geräte vergeben werden? (2 P.)
-4. Liegt `192.168.10.200` im gleichen Subnetz? Begründe. (2 P.)
-5. Liegt `192.168.11.20` im gleichen Subnetz? (1 P.)
+### Aufgabe 12 – MAC und IPv6 (2 Punkte)
 
-### Aufgabe 15 – Subnetz-Berechnung `/27` (6 Punkte)
-
-Gegeben:
-
-- IP-Adresse: `192.168.20.75`
-- Präfix: `/27`
-
-1. Wie lautet die Subnetzmaske in Dezimalschreibweise? (1 P.)
-2. Wie lautet die Netzwerkadresse? (2 P.)
-3. Wie lautet die Broadcast-Adresse? (1 P.)
-4. Wie viele nutzbare Host-Adressen gibt es in diesem Subnetz? (2 P.)
+1. Wie lang ist eine klassische MAC-Adresse und wofür wird sie verwendet? (1 P.)
+2. Wie lang ist eine IPv6-Adresse und warum wurde IPv6 eingeführt? (1 P.)
 
 ---
 
-## Teil F – Praxis und Fehlersuche (14 Punkte)
+## Teil E – Projektvorgehen (14 Punkte)
 
-### Aufgabe 16 – Netzwerkplan mit IP-Zuteilungsschema (9 Punkte)
+### Aufgabe 13 – Projekt-Vorphase (8 Punkte)
 
-Eine Firma nutzt im Netz `192.168.0.0/24` folgendes Zuteilungsschema:
+Eine Bäckerei eröffnet eine zweite Filiale. Dort werden sechs PCs, zwei Kassensysteme, ein Netzwerkdrucker, WLAN für Mitarbeitende und ein zentraler Dateispeicher benötigt.
 
-| IP-Bereich | Einsatzzweck |
+1. Nenne vier Informationen, die du für das Firmenporträt und die Ausgangslage erheben musst. (2 P.)
+2. Erkläre den Unterschied zwischen IST- und SOLL-Zustand mit je einem Beispiel aus diesem Projekt. (2 P.)
+3. Formuliere zwei überprüfbare Projektziele. (2 P.)
+4. Warum müssen Budget und Termin schon in der Vorphase bekannt sein? (2 P.)
+
+### Aufgabe 14 – Phasen und Ergebnisse (6 Punkte)
+
+Ordne jedem Ergebnis eine sinnvolle Projektphase zu:
+
+| Ergebnis | Projektphase |
 |---|---|
-| `192.168.0.1 – 192.168.0.50` | Client-Computer |
-| `192.168.0.100 – 192.168.0.120` | Drucker |
-| `192.168.0.140 – 192.168.0.160` | IP-Telefone |
-| `192.168.0.200 – 192.168.0.230` | Verwaltbare Netzwerkgeräte (Switch) |
-| `192.168.0.250 – 192.168.0.254` | Server, Gateway (Router) |
-
-Plane ein Netzwerk mit: einem Router/Gateway, einem verwaltbaren Switch, drei PCs, einem Netzwerkdrucker und einem IP-Telefon.
-
-1. Zeichne den Netzwerkplan mit allen Verbindungen. (3 P.)
-2. Vergib für jedes Gerät eine passende IP-Adresse gemäss obigem Schema. (4 P.)
-3. Begründe kurz, warum ein solches Zuteilungsschema in der Praxis sinnvoll ist. (2 P.)
-
-### Aufgabe 17 – Fehlersuche (5 Punkte)
-
-Ein PC erreicht keine Webseite. Nenne für jeden Schritt einen passenden Linux-Befehl:
-
-1. Eigene IP-Konfiguration anzeigen. (1 P.)
-2. Erreichbarkeit des Routers testen. (1 P.)
-3. Erreichbarkeit einer öffentlichen IP-Adresse testen. (1 P.)
-4. Namensauflösung einer Domain testen. (1 P.)
-5. Den Weg der Pakete bis zum Ziel anzeigen. (1 P.)
+| Anforderungen und IST-Aufnahme |  |
+| Variantenvergleich und Netzkonzept |  |
+| Termin-, Budget- und Materialplan |  |
+| montierte und konfigurierte Geräte |  |
+| Testprotokoll und Abnahme |  |
+| Betriebsanleitung und Übergabe |  |
 
 ---
 
-# Lösungen
+## Teil F – Praktisches Netzkonzept (24 Punkte)
 
-> [!success]- Lösungen Teil A
+### Ausgangslage
+
+Die Bäckerei aus Teil E erhält das Netz `192.168.50.0/24`.
+
+Benötigt werden:
+
+- ein Router/Firewall mit Internetanschluss
+- ein verwaltbarer Switch
+- ein Access Point
+- sechs Büro-PCs
+- zwei Kassensysteme
+- ein Netzwerkdrucker
+- ein NAS
+
+Das Unternehmen legt folgende Bereiche fest:
+
+| Bereich | Verwendung |
+|---|---|
+| `.1 – .19` | Router, Switch und Access Point |
+| `.20 – .39` | Server, NAS und Management |
+| `.40 – .59` | Drucker und Spezialgeräte |
+| `.100 – .199` | DHCP-Clients |
+| `.200 – .219` | Kassensysteme mit statischer IP |
+
+### Aufgabe 15 – Netzwerkplan zeichnen (6 Punkte)
+
+Zeichne einen vollständigen Netzplan. Er muss enthalten:
+
+- Internet, Router/Firewall, Switch und Access Point
+- NAS, Drucker, sechs PCs und zwei Kassensysteme
+- alle Kabel- und WLAN-Verbindungen
+- Gerätenamen sowie IP-Adressen oder Adressierungsart
+
+### Aufgabe 16 – IP-Plan (8 Punkte)
+
+Ergänze einen gültigen IP-Plan. Verwende keine Adresse doppelt.
+
+| Gerät | IP-Adresse | Maske/Präfix | Gateway | statisch/DHCP |
+|---|---|---|---|---|
+| Router R01 |  |  |  |  |
+| Switch SW01 |  |  |  |  |
+| Access Point AP01 |  |  |  |  |
+| NAS01 |  |  |  |  |
+| Drucker PRN01 |  |  |  |  |
+| Kasse POS01 |  |  |  |  |
+| Kasse POS02 |  |  |  |  |
+| Büro-PCs |  |  |  |  |
+
+### Aufgabe 17 – Material und Budget (6 Punkte)
+
+1. Nenne sechs notwendige Positionen für die Materialliste. Mengen müssen sinnvoll sein. (3 P.)
+2. Welche fünf Angaben gehören pro gekaufter Hardwareposition in den Budgetplan? (2 P.)
+3. Nenne ein technisches Auswahlkriterium für den Switch. (1 P.)
+
+### Aufgabe 18 – Dokumentation (4 Punkte)
+
+Nenne je vier Inhalte:
+
+1. eines guten Netzplans (2 P.)
+2. eines Konfigurations- oder Betriebshandbuchs für den Router (2 P.)
+
+---
+
+## Teil G – Inbetriebnahme und Fehlersuche (10 Punkte)
+
+### Aufgabe 19 – Kein Internetzugang (10 Punkte)
+
+Ein Büro-PC kann keine Webseite öffnen. Nenne zu jedem Schritt eine passende Kontrolle oder einen Linux-Befehl und beschreibe kurz, was damit geprüft wird.
+
+1. Physische Verbindung (1 P.)
+2. Eigene IP-Konfiguration (2 P.)
+3. Verbindung zum Default Gateway (2 P.)
+4. Verbindung ins Internet ohne DNS (2 P.)
+5. Namensauflösung (2 P.)
+6. Weg der Pakete (1 P.)
+
+---
+
+# Musterlösungen
+
+> [!success]- Teil A – Netzwerkarchitektur und Topologien
 > **Aufgabe 1**
 >
-> - **LAN:** Lokales Netzwerk in einem begrenzten Bereich, etwa in einer Schule.
-> - **WLAN:** Kabelloses lokales Netzwerk, etwa ein Laptop am WLAN-Router.
-> - **MAN:** Verbindet Netzwerke innerhalb einer Stadt oder Region.
-> - **WAN:** Verbindet Netzwerke über grosse Entfernungen.
+> - **LAN:** Lokales Netz in einem begrenzten Bereich, zum Beispiel ein Büronetz.
+> - **WLAN:** Drahtloses LAN, zum Beispiel Tablets über einen Access Point.
+> - **MAN:** Verbindet Netze innerhalb einer Stadt oder Region.
+> - **WAN:** Verbindet Netze über grosse Entfernungen, zum Beispiel zwei Firmensitze.
+> - **GAN:** Weltweite Verbindung von Netzen, zum Beispiel ein globales Unternehmensnetz.
 >
 > **Aufgabe 2**
 >
-> 1. Ein SPOF ist eine einzelne Komponente, deren Ausfall das System unterbricht. Beispiel: der einzige Switch einer Stern-Topologie.
-> 2. Bei Redundanz sind wichtige Komponenten oder Wege mehrfach vorhanden. Bei einem Ausfall kann ein Ersatz übernehmen.
-> 3. Private Adressen werden intern verwendet und nicht direkt im Internet geroutet. Öffentliche Adressen sind im Internet eindeutig erreichbar.
+> 1. Stern- oder Baumtopologie. Sie ist gut erweiterbar und ein defektes Endgerätekabel stört die anderen Geräte nicht.
+> 2. Der zentrale Switch, je nach Aufbau auch Router oder Stromversorgung.
+> 3. Zum Beispiel zweiter Switch mit unabhängigen Uplinks, redundanter Router/Internetanschluss, USV oder redundante Stromversorgung. Die Ersatzwege dürfen nicht am gleichen SPOF hängen.
+> 4. Ein Backbone ist die leistungsfähige Hauptverbindung zwischen Netzbereichen.
 
-> [!success]- Lösungen Teil B
+> [!success]- Teil B – Medien und Komponenten
 > **Aufgabe 3**
 >
-> | Topologie | Aufbau | Vorteil | Nachteil |
-> |---|---|---|---|
-> | Stern | Alle Geräte sind mit einem zentralen Switch/Router verbunden. | Ein Kabelausfall betrifft nur ein Gerät. | Der zentrale Switch ist ein SPOF. |
-> | Bus | Alle Geräte teilen sich eine gemeinsame Hauptleitung. | Wenig Kabel, einfacher Aufbau. | Ausfall der Hauptleitung stört alle Geräte. |
-> | Ring | Jedes Gerät ist mit zwei Nachbarn verbunden, es entsteht ein Kreis. | Geordneter Datenfluss. | Ein Unterbruch kann den ganzen Ring stören. |
-> | Linie | Geräte sind hintereinander wie eine Kette verbunden. | Einfach und wenig Verkabelung. | Ein Unterbruch trennt nachfolgende Geräte. |
-> | Baum | Mehrere kleinere Netzwerke (Sterne) sind wie Äste an einem Hauptknoten verbunden. | Gut erweiterbar und übersichtlich. | Fällt ein Hauptknoten aus, sind viele Geräte betroffen. |
-> | Teilvermascht | Einige Geräte sind direkt mit mehreren anderen verbunden, aber nicht alle untereinander. | Mehrere mögliche Datenwege, ausfallsicherer. | Mehr Kabel und aufwendigerer Aufbau. |
-> | Vollvermascht | Jedes Gerät ist direkt mit jedem anderen Gerät verbunden. | Sehr hohe Ausfallsicherheit. | Sehr viele Verbindungen, teuer und kompliziert. |
+> 1. Twisted Pair: kurze, feste und günstige Büroverbindung.
+> 2. Glasfaser: grosse Distanz und unempfindlich gegen elektromagnetische Störungen.
+> 3. WLAN: ermöglicht Mobilität ohne Kabel zum Endgerät.
+> 4. UTP hat keine zusätzliche Schirmung. STP/FTP besitzt Folien- oder Geflechtschirmung und schützt besser gegen elektromagnetische Störungen, muss aber fachgerecht installiert werden.
 >
 > **Aufgabe 4**
 >
-> 1. Stern-Topologie: gut erweiterbar und einfach zu warten.
-> 2. Ein Switch.
-> 3. Redundante Switches und unabhängige Ersatzverbindungen.
+> | Komponente | Hauptaufgabe | OSI |
+> |---|---|---:|
+> | Hub | Bits an alle Ports verteilen | 1 |
+> | Switch | Frames anhand MAC-Adressen weiterleiten | 2 |
+> | Router | Pakete zwischen IP-Netzen routen | 3 |
+> | Access Point | WLAN mit kabelgebundenem LAN verbinden | 2 |
+> | Medienkonverter | physisches Medium/Signal umwandeln | 1 |
+> | Stateful Firewall | Verbindungen und Ports zustandsbezogen filtern | 4 |
+> | Proxy | Anwendungsanfragen vermitteln | 7 |
+> | SFP-Modul | elektrisches/optisches Senden und Empfangen | 1 |
 
-> [!success]- Lösungen Teil C
+> [!success]- Teil C – OSI, TCP/IP und Protokolle
 > **Aufgabe 5**
 >
 > 1. Bitübertragung / Physical
@@ -274,119 +321,155 @@ Ein PC erreicht keine Webseite. Nenne für jeden Schritt einen passenden Linux-B
 >
 > **Aufgabe 6**
 >
-> | Begriff | Schicht |
-> |---|---:|
-> | Switch | 2 |
-> | Router | 3 |
-> | Hub | 1 |
-> | IP | 3 |
-> | MAC-Adresse | 2 |
-> | TCP | 4 |
-> | UDP | 4 |
-> | HTTP | 7 |
+> | Begriff | Aufgabe | OSI |
+> |---|---|---:|
+> | MAC-Adresse | lokale physikalische Adressierung | 2 |
+> | ARP | IPv4-Adresse lokal in MAC-Adresse auflösen | 2/3 |
+> | IP | logische Adressierung und Paketvermittlung | 3 |
+> | ICMP | Kontroll- und Fehlermeldungen | 3 |
+> | TCP | zuverlässiger, verbindungsorientierter Transport | 4 |
+> | UDP | schneller, verbindungsloser Transport | 4 |
+> | DNS | Namen und IP-Adressen auflösen | 7 |
+> | HTTPS | verschlüsselte Webseitenübertragung | 7 |
 >
 > **Aufgabe 7**
 >
-> TCP ist verbindungsorientiert, bestätigt Daten und überträgt fehlende Daten erneut. Es ist zuverlässig, aber aufwendiger. Beispiel: HTTPS.
->
-> UDP ist verbindungslos, bestätigt Pakete nicht und ist schneller. Beispiel: Live-Telefonie oder Streaming.
->
+> TCP baut eine Verbindung auf, bestätigt Daten, hält die Reihenfolge ein und überträgt Verluste erneut. UDP sendet ohne Verbindungsaufbau, Bestätigung oder Zustellgarantie und hat weniger Overhead. TCP-Beispiel: HTTPS oder Dateiübertragung. UDP-Beispiel: Live-Streaming, VoIP oder eine normale DNS-Anfrage.
+
+> [!success]- Teil D – Adressierung und Subnetting
 > **Aufgabe 8**
 >
-> | Komponente | Schicht |
-> |---|---:|
-> | Hub | 1 |
-> | Switch | 2 |
-> | Router | 3 |
-> | Stateful-Inspection-Firewall | 4 |
-> | Proxy | 7 |
-
-> [!success]- Lösungen Teil D
+> 1. 32 Bit und 4 Oktette.
+> 2. 0 bis 255.
+> 3. Netz- und Hostanteil.
+> 4. Das Default Gateway leitet Pakete in andere Netze weiter.
+>
 > **Aufgabe 9**
 >
-> | Protokoll | Aufgabe | Standard-Port |
-> |---|---|---:|
-> | HTTP | Unverschlüsselte Webseitenübertragung | 80/TCP |
-> | HTTPS | Verschlüsselte Webseitenübertragung | 443/TCP |
-> | FTP-Steuerung | Steuerung einer Dateiübertragung | 21/TCP |
-> | SMTP | E-Mails versenden | 25/TCP |
-> | POP3 | E-Mails abrufen | 110/TCP |
-> | IMAP | E-Mails auf dem Server verwalten | 143/TCP |
-> | DNS | Namen in IP-Adressen auflösen | 53/UDP und TCP |
+> | Adresse | Antwort |
+> |---|---|
+> | `10.25.8.4` | privat |
+> | `172.20.100.5` | privat |
+> | `172.32.1.5` | öffentlich |
+> | `192.168.80.20` | privat |
 >
 > **Aufgabe 10**
 >
-> 1. ARP ermittelt im lokalen IPv4-Netz die MAC-Adresse zu einer IP-Adresse.
-> 2. DNS übersetzt Domainnamen in IP-Adressen.
-> 3. ICMP dient Kontroll- und Fehlermeldungen. `ping` verwendet ICMP.
-
-> [!success]- Lösungen Teil E
-> **Aufgabe 11:** 32 Bits; 4 Oktette; Werte von 0 bis 255; Netzwerk- und Hostanteil.
+> 1. `192 = 11000000`
+> 2. `224 = 11100000`
+> 3. `/27 = 255.255.255.224`
+> 4. `32 - 27 = 5` Hostbits
+>
+> **Aufgabe 11**
+>
+> - Maske: `255.255.255.224`
+> - Blockgrösse: `256 - 224 = 32`
+> - Blöcke: `0–31`, `32–63`, `64–95`, ...
+> - `78` liegt im Block `64–95`.
+> - Netzwerkadresse: `192.168.40.64`
+> - Broadcast: `192.168.40.95`
+> - Hostbereich: `192.168.40.65 – 192.168.40.94`
+> - Nutzbare Hosts: `2^5 - 2 = 30`
 >
 > **Aufgabe 12**
 >
-> - `10.20.30.40`: privat
-> - `172.16.5.10`: privat
-> - `172.32.5.10`: öffentlich
-> - `192.168.50.7`: privat
-> - `8.8.8.8`: öffentlich
->
+> 1. Eine klassische MAC-Adresse hat 48 Bit und adressiert eine Netzwerkschnittstelle im lokalen Netz.
+> 2. IPv6 hat 128 Bit und wurde hauptsächlich wegen des zu kleinen IPv4-Adressraums eingeführt.
+
+> [!success]- Teil E – Projektvorgehen
 > **Aufgabe 13**
 >
-> 1. `192` = `11000000`
-> 2. `168` = `10101000`
-> 3. `11111111` = `255`
-> 4. `00000000` = `0`
+> 1. Zum Beispiel Anzahl Mitarbeitende/Geräte, Räume und Distanzen, vorhandene Leitungen/Hardware, benötigte Dienste, Internetanschluss, Sicherheitsanforderungen und erwartetes Wachstum.
+> 2. IST beschreibt die aktuelle Situation, etwa „in der neuen Filiale ist noch keine Netzwerkverkabelung vorhanden“. SOLL beschreibt das gewünschte Ergebnis, etwa „alle Arbeitsplätze und Kassen sind sicher verbunden und dokumentiert“.
+> 3. Beispiele: „Bis zum Eröffnungstag haben alle sechs PCs Zugriff auf NAS und Drucker“; „Das Mitarbeiter-WLAN deckt alle Arbeitsräume ab und ist vom Kassennetz getrennt“. Ziele müssen überprüfbar sein.
+> 4. Budget und Termin begrenzen die möglichen Varianten, Produkte, Ressourcen und Reihenfolge der Arbeiten.
 >
 > **Aufgabe 14**
 >
-> 1. Netzwerkadresse: `192.168.10.0`
-> 2. Broadcast-Adresse: `192.168.10.255`
-> 3. Hostbereich: `192.168.10.1` bis `192.168.10.254`
-> 4. Ja, die ersten drei Oktette stimmen bei `/24` überein.
-> 5. Nein.
->
-> **Aufgabe 15**
->
-> 1. Subnetzmaske: `255.255.255.224`
-> 2. Netzwerkadresse: `192.168.20.64` (Blockgrösse 32, `75` liegt im Block `64–95`)
-> 3. Broadcast-Adresse: `192.168.20.95`
-> 4. Nutzbare Hosts: `2^5 − 2 = 30` (Hostbereich `192.168.20.65 – 192.168.20.94`)
+> | Ergebnis | Phase |
+> |---|---|
+> | Anforderungen und IST-Aufnahme | Analyse |
+> | Variantenvergleich und Netzkonzept | Konzept |
+> | Termin-, Budget- und Materialplan | Planung |
+> | montierte und konfigurierte Geräte | Umsetzung |
+> | Testprotokoll und Abnahme | Test/Abnahme |
+> | Betriebsanleitung und Übergabe | Abschluss/Betrieb |
 
-> [!success]- Lösungen Teil F
-> **Aufgabe 16 – Beispiel**
+> [!success]- Teil F – Praktisches Netzkonzept
+> **Aufgabe 15 – Beispielplan**
 >
 > ```text
-> Internet
->    |
-> Router/Gateway: 192.168.0.250
->    |
-> Switch (verwaltbar): 192.168.0.200
->    |-- PC 1:      192.168.0.10
->    |-- PC 2:      192.168.0.11
->    |-- PC 3:      192.168.0.12
->    |-- Drucker:   192.168.0.100
->    `-- IP-Telefon: 192.168.0.140
+>                           INTERNET
+>                               |
+>                    [Router/Firewall R01]
+>                       192.168.50.1/24
+>                               |
+>                      [Switch SW01 .10]
+>            _______________|________________
+>           /        /       |        \       \
+>      NAS01 .20 PRN01 .40 POS01 .200 POS02 .201 AP01 .11
+>                                                   )))
+>                                         sechs PCs per DHCP
 > ```
 >
-> Ein solches Schema ist sinnvoll, weil man anhand der IP-Adresse sofort erkennt, um welche Geräteart es sich handelt. Das erleichtert Fehlersuche, Firewall-Regeln und die Verwaltung grösserer Netzwerke.
+> Eine andere saubere Darstellung mit korrekten Verbindungen und Adressen ist ebenfalls richtig.
+>
+> **Aufgabe 16 – Beispiel**
+>
+> | Gerät | IP-Adresse | Maske | Gateway | Art |
+> |---|---|---|---|---|
+> | Router R01 | `192.168.50.1` | `/24` | Provider/WAN | statisch |
+> | Switch SW01 | `192.168.50.10` | `/24` | `192.168.50.1` | statisch |
+> | Access Point AP01 | `192.168.50.11` | `/24` | `192.168.50.1` | statisch |
+> | NAS01 | `192.168.50.20` | `/24` | `192.168.50.1` | statisch |
+> | Drucker PRN01 | `192.168.50.40` | `/24` | `192.168.50.1` | statisch |
+> | Kasse POS01 | `192.168.50.200` | `/24` | `192.168.50.1` | statisch |
+> | Kasse POS02 | `192.168.50.201` | `/24` | `192.168.50.1` | statisch |
+> | Büro-PCs | `.100–.199` | `/24` | `192.168.50.1` | DHCP |
 >
 > **Aufgabe 17**
 >
-> 1. `ip address`
-> 2. `ping -c 3 192.168.1.1`
-> 3. `ping -c 3 8.8.8.8`
-> 4. `nslookup example.com` oder `dig example.com`
-> 5. `traceroute example.com` (oder `tracepath example.com`)
+> 1. Zum Beispiel Router/Firewall 1×, verwaltbarer Switch 1×, Access Point 1×, NAS 1×, Festplatten passend zum NAS, Patchkabel mindestens 11×, Verlegekabel, Netzwerkdosen, Patchpanel, Rack und USV. Mengen müssen zum Plan passen.
+> 2. Produkt/Modell, Anzahl, Einzelpreis, Totalpreis und Anbieter/Bezugsquelle; zusätzlich ist die Auswahlbegründung verlangt.
+> 3. Zum Beispiel genügend Ports, benötigte Geschwindigkeit, VLAN-Unterstützung, PoE, SFP-Uplinks, Verwaltung oder Garantie.
+>
+> **Aufgabe 18**
+>
+> 1. Geräte, Verbindungen, Gerätenamen, IP-Adressen/Präfixe; zusätzlich etwa Räume, Ports, Kabeltyp oder Legende.
+> 2. Zweck/Standort, Anschlüsse, Zugang, IP-Grundkonfiguration; zusätzlich Benutzerverwaltung, WLAN/Sicherheit, Backup, Wiederherstellung, Bedienung oder Fehlersuche.
+
+> [!success]- Teil G – Inbetriebnahme und Fehlersuche
+> **Aufgabe 19**
+>
+> 1. Strom, Link-LED, Kabel, Switch-Port und WLAN-Verbindung kontrollieren.
+> 2. `ip address` prüft Adresse und Interface; `ip route` prüft Route und Default Gateway.
+> 3. `ping -c 3 192.168.50.1` prüft die lokale Verbindung zum Router.
+> 4. `ping -c 3 8.8.8.8` prüft den Internetweg ohne Namensauflösung.
+> 5. `nslookup example.com` oder `dig example.com` prüft DNS.
+> 6. `traceroute example.com` oder `tracepath example.com` zeigt den Paketweg.
 
 ---
 
-## Auswertung
+# Auswertung
 
 | Punkte | Einschätzung |
 |---:|---|
 | 108–120 | Sehr gut vorbereitet |
 | 96–107 | Gut vorbereitet |
-| 84–95 | Solide, einzelne Themen wiederholen |
-| 72–83 | Grundlagen vorhanden, gezielt nacharbeiten |
-| unter 72 | Lernstoff nochmals durcharbeiten |
+| 84–95 | Solide; einzelne Themen wiederholen |
+| 72–83 | Grundlagen vorhanden; Lücken gezielt schliessen |
+| unter 72 | Zusammenfassung nochmals durcharbeiten |
+
+## Fehleranalyse
+
+| Teil | Erreicht | Maximum | Wiederholen? |
+|---|---:|---:|---|
+| A – Architektur/Topologien |  | 12 |  |
+| B – Medien/Komponenten |  | 16 |  |
+| C – OSI/Protokolle |  | 20 |  |
+| D – Adressierung/Subnetting |  | 24 |  |
+| E – Projektvorgehen |  | 14 |  |
+| F – Netzkonzept |  | 24 |  |
+| G – Fehlersuche |  | 10 |  |
+
+Zur Wiederholung: [[vorbereitung Modul 117]]
