@@ -1,8 +1,8 @@
 # Probeprüfung Modul 117 – Block 1 bis 4
 
-**Thema:** Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren  
+**Thema:** Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren
 **Bearbeitungszeit:** 120 Minuten  
-**Maximalpunktzahl:** 120 Punkte  
+**Maximalpunktzahl:** 120 Punkte
 **Hilfsmittel:** eigene Zusammenfassung, Unterrichtsunterlagen und Taschenrechner
 
 > [!important]

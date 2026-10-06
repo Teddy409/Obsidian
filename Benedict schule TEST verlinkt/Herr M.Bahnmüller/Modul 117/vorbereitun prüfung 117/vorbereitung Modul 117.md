@@ -1,7 +1,7 @@
 # Prüfungsvorbereitung Modul 117 – Block 1 bis 4
 
-**Modul:** Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren  
-**Grundlage:** `Modul-117_BL01.pdf` bis `Modul-117_BL04.pdf`  
+**Modul:** Informatik- und Netzinfrastruktur für ein kleines Unternehmen realisieren
+**Grundlage:** `Modul-117_BL01.pdf` bis `Modul-117_BL04.pdf`
 **Ziel:** Lernzusammenfassung, Rechenhilfe, Netzwerkplanung und Prüfungsvorbereitung
 
 > [!important]
